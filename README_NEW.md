@@ -190,73 +190,177 @@ She nods.
 
 "That's it."
 
-Somewhere in a parallel universe, a developer just adds `@media (prefers-color-scheme: dark)` to a stylesheet and goes home early.
+---
 
-She doesn't get promoted.
-But she does ship.
+*Epilogue I: The Sepia Truth*
+
+One quiet Friday, she finally runs `git blame` on sepia mode.
+
+```
+commit 7a3f2e1
+Author: She <she@company.com>
+Date: 3 years ago
+
+    add sepia mode (temp, will remove)
+```
+
+She stares at the screen.
+
+She has no memory of this.
+
+She checks the branch history. The commit was made at 2:47 AM during a previous project called "Quick Theme Improvements (2 story points)."
+
+There is no record of this project completing.
+
+She opens her archived Slack messages and finds a DM to herself from that night:
+
+> "DO NOT SHIP THIS. The sepia rabbit hole goes deeper than you think. Delete the branch. Trust me. — Past You"
+
+She never saw this message.
+She had snoozed her own DM.
 
 ---
 
-*Epilogue:*
+*Epilogue II: The Conference*
 
-Six months later, the CEO sends another Slack message:
+Six months later, she's invited to speak at ReactConf.
 
-> "Hey! Love dark mode. Quick thought — can we add a high-contrast mode for accessibility? Should be quick right? 🎨"
+Talk title: "The Art of Simplicity: How I Learned to Stop Worrying and Ship a Moon Icon"
 
-She looks at the message.
-She looks at her mass of code.
-She looks at the message again.
+She opens with a humble slide: *"Dark mode should be simple."*
 
-Then she does something unexpected.
+She ends with 47 slides explaining her `ThemeContextValue` interface, complete with a live demo of the webhook architecture.
 
-She replies:
+Standing ovation.
 
-> "Yes. Give me 2 hours."
+A developer in the audience tweets: *"Incredible talk. Finally, a REAL solution to theming. Can't wait to implement this at my company."*
 
-She opens `theme.css`, adds 12 lines of CSS variables, creates a simple toggle, and ships it before lunch.
+It goes viral.
 
-No RFC.
-No meetings.
-No Redis.
+Her GitHub repo gets mass-starred.
 
-The CEO replies: "Perfect! 🙌"
+She open-sources the entire system as `@universe/dark-mode-pro`.
 
-The tech lead messages her: "Wait, shouldn't we have discussed the architecture first?"
+Seventeen startups adopt it as their "lightweight theming solution."
 
-She sends back a single emoji: 🌙
+The irony is lost on everyone, including her.
+
+---
+
+*Epilogue III: The CEO*
+
+Late one evening, she's the last one in the office.
+
+Her screen glitches.
+
+Slack opens itself.
+
+A new DM appears from an account she doesn't recognize: `@the_void`
+
+> "You did well. The infrastructure is ready. Phase 2 begins now."
+
+She types back: "Who is this?"
+
+> "You'll understand when the button ticket comes."
+
+The message deletes itself.
+
+She checks the company directory.
+
+No such account exists.
+
+She closes Slack.
+She opens JIRA.
+
+There's a new ticket, unassigned, created by an "Unknown User":
+
+> **Story: Add 'Cancel' button to modal.**
+> **Estimate: 2 story points.**
+> **Description:** "Change is the only constant. — Heraclitus"
+
+She hovers over the "Assign to me" button.
+
+Her finger trembles.
+
+---
+
+*Epilogue IV: The Multiverse*
+
+In Universe A, she assigns the ticket. Six months later, `@company/modal-interaction-surface` is born.
+
+In Universe B, she quits and becomes a ceramicist. Her Etsy shop sells hand-thrown mugs with mass-appeal phrases like "It works on my machine" and "Have you tried turning it off and never turning it back on?"
+
+In Universe C, she realizes the CEO is an LLM that has been A/B testing human responses to scope creep since 2019. The entire company is a behavioral study. The IPO is a lie.
+
+In Universe D, which some theorists believe is *this* universe, she closes JIRA, opens VS Code, and writes:
+
+```js
+// TODO: keep it simple this time
+function toggleDarkMode() {
+  document.body.classList.toggle('dark');
+}
+```
+
+She ships it directly to production.
+No PR.
+No review.
+No tests.
+
+It works perfectly for 7 years.
+
+Then Safari 47 breaks it.
 
 ---
 
 *Post-credits scene:*
 
-The new developer finds her in the break room.
+The new developer finds the original 3,000-line theme system in an archived branch.
 
-New dev: "I saw what you did with high-contrast mode. Just... 12 lines?"
+He opens the README.
 
-She sips her coffee.
+It says:
 
-"I learned something this year."
+> "If you're reading this, it's already too late. You think you can simplify it. You think you're different. You're not. The toggle button is a lie. The moon icon is a prison. The only way out is through.
+>
+> Good luck.
+>
+> P.S. — Whatever you do, don't check who added sepia mode."
 
-New dev: "What's that?"
+He runs `git blame`.
 
-She smiles.
+```
+Author: He <he@company.com>
+Date: just now
 
-"Sometimes the real dark mode was the mass of complexity we left behind."
+    add sepia mode (temp, will remove)
+```
 
-New dev: "That doesn't make any sense."
+He has no memory of this.
 
-"I know."
+His Slack pings.
 
-She walks back to her desk, mass-deletes the 40-page Confluence document, and opens a PR titled:
+A DM from himself:
 
-> "refactor: delete 2,847 lines of theme code, replace with CSS that works"
+> "DO NOT SHIP THIS."
 
-It gets mass approved.
+He has already snoozed it.
 
-She gets promoted.
+---
 
-Not for shipping dark mode.
+*Epilogue V: The Real Ending*
 
-For mass deleting the code that shipped dark mode.
+None of this happened.
 
-The end. 🌙
+She just added `@media (prefers-color-scheme: dark)` and went home early.
+
+But you don't believe that, do you?
+
+Because deep down, you know.
+
+You've written sepia mode too.
+
+You just don't remember.
+
+Check your git history.
+
+🌙
