@@ -203,15 +203,60 @@ Six months later, the CEO sends another Slack message:
 
 > "Hey! Love dark mode. Quick thought — can we add a high-contrast mode for accessibility? Should be quick right? 🎨"
 
-She looks at her keyboard.
-She looks at the window.
-She looks at the keyboard again.
+She looks at the message.
+She looks at her mass of code.
+She looks at the message again.
 
-She starts typing an RFC titled:
+Then she does something unexpected.
 
-> "Unified Chromatic Accessibility Framework: A Platform Approach to Visual Preference Orchestration (Phase 1 of N)"
+She replies:
 
-She has learned nothing.
-She has learned everything.
+> "Yes. Give me 2 hours."
 
-The system has claimed another one.
+She opens `theme.css`, adds 12 lines of CSS variables, creates a simple toggle, and ships it before lunch.
+
+No RFC.
+No meetings.
+No Redis.
+
+The CEO replies: "Perfect! 🙌"
+
+The tech lead messages her: "Wait, shouldn't we have discussed the architecture first?"
+
+She sends back a single emoji: 🌙
+
+---
+
+*Post-credits scene:*
+
+The new developer finds her in the break room.
+
+New dev: "I saw what you did with high-contrast mode. Just... 12 lines?"
+
+She sips her coffee.
+
+"I learned something this year."
+
+New dev: "What's that?"
+
+She smiles.
+
+"Sometimes the real dark mode was the mass of complexity we left behind."
+
+New dev: "That doesn't make any sense."
+
+"I know."
+
+She walks back to her desk, mass-deletes the 40-page Confluence document, and opens a PR titled:
+
+> "refactor: delete 2,847 lines of theme code, replace with CSS that works"
+
+It gets mass approved.
+
+She gets promoted.
+
+Not for shipping dark mode.
+
+For mass deleting the code that shipped dark mode.
+
+The end. 🌙
